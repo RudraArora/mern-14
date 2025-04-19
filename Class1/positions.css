@@ -1,0 +1,23 @@
+.parent{
+    width: 70vw;
+    height: 50vh;
+    background-color: red;
+    position: relative;
+    border: 2px solid black;
+}
+.child{
+    width: 50%;
+    height: 50%;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.fixed{
+    width: fit-content;
+    background-color: blue;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

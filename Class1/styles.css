@@ -1,0 +1,12 @@
+/* *{
+    margin: 0;
+
+} */
+h2{
+    /* padding: 5px; */
+    /* padding: 40px 20px; */
+    /* padding: 20px 40px 15px; */
+    /* top right bottom left */
+    padding: 20px 40px 14px 24px;
+    border: 2px solid black;
+}
