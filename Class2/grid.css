@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+
+.container{
+
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    /* grid-template-areas: "H H H H H"
+                        "SB C C C C"
+                        "SB C C C C"
+                        "F F F F F"; */
+
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    
+}
+
+.header{
+
+    /* grid-area: H; */
+    background-color: yellow;
+
+}
+
+
+.sidebar{
+
+    /* grid-area: SB; */
+    background-color: rgb(221, 93, 29);
+
+}
+
+
+.content{
+
+    /* grid-area: C; */
+    background-color: rgb(73, 43, 222);
+
+}
+
+
+.footer{
+
+    /* grid-area: F; */
+    background-color: rgb(29, 149, 99);
+
+}
